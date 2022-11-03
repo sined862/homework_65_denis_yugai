@@ -27,3 +27,16 @@ function avgNumbers(anyArray) {
 console.log(avgNumbers(arrayNumbers1))
 console.log(avgNumbers(arrayNumbers2))
 console.log(avgNumbers(arrayNumbers3))
+
+//Задание 3
+function questionRiddle() {
+    let intOrStr = prompt("У квадратного стола отпилили один угол. Сколько теперь углов у него стало?");
+    if (intOrStr == 5 || intOrStr == 'пять') {
+        alert('Ответ верный')
+    }
+    else {
+        alert('Ответ неверный')
+    } 
+}
+
+questionRiddle()
