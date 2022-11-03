@@ -40,3 +40,21 @@ function questionRiddle() {
 }
 
 questionRiddle()
+
+//Задание 4
+let duck = {
+    toStr: function() {
+        let str = this.name + ', ' + this.color + ', ' + this.age + 'год'
+        console.log(str)
+    },
+    say: function() {
+        let str = 'кря кря'
+        console.log(str)
+    },
+    name: 'Дональд',
+    color: 'белый',
+    age: 1
+}
+
+duck.toStr()
+duck.say()
