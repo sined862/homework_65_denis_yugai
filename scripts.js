@@ -44,7 +44,7 @@ questionRiddle()
 //Задание 4
 let duck = {
     toStr: function() {
-        let str = this.name + ', ' + this.color + ', ' + this.age + 'год'
+        let str = this.name + ', ' + this.color + ', ' + this.age + ' год'
         console.log(str)
     },
     say: function() {
